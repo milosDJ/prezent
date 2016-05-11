@@ -1,0 +1,153 @@
+<html>
+<head>
+<script src="Slideshowvezba.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Styles\Prezentparket.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<meta charset="UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+</head>
+<body>
+<header>
+		<div class="col-md-6 col-xs-6 logo">
+		<a href="#naslovna" class="smoothScroll"><img class="img-responsive" src="Slike/logo.jpg"/></a>
+		</div>
+		
+				
+					<div class="row col-md-6 col-xs-6 menuwrapper">								
+							<a href="#prvaStrana" class="smoothScroll"><button>O nama</button></a>		
+							<a href="#drugaStrana" class="smoothScroll"><button>Proizvodi i usluge</button></a>
+							<a href="#trecaStrana" class="smoothScroll"><button>Kontakt</button></a>			
+					</div>
+					
+</header>
+	
+<div class="container-fluid fullHeight" id="naslovna">
+             <div class="row">
+				
+					<div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-2 naslovnaText">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat ex turpis, vitae interdum libero volutpat interdum. Quisque vitae felis purus. Donec condimentum purus sit amet nisl iaculis, id mollis nunc rutrum. Donec sit amet pretium libero. Donec orci purus, facilisis a vulputate tempus, varius a nisl. Maecenas ac nisl sed nisi mollis facilisis. Maecenas ullamcorper nisi eget enim tristique, a convallis mauris dapibus.
+
+		Praesent odio felis, fringilla elementum metus sed, pellentesque consequat enim. Morbi eget turpis a odio aliquam maximus quis et est. Nam feugiat hendrerit leo auctor scelerisque. Proin volutpat lacus et purus sodales, condimentum fringilla diam tincidunt. Curabitur venenatis placerat mollis. Vestibulum vitae massa id libero pretium auctor. Morbi eu neque vel sem dictum gravida ac ac justo.
+					</div>
+			
+			
+					<div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-1 naslovnaSlika">
+					<img class="slikaPocetna" id="slikaId" src="Slike/pocetna.jpg"/>
+					
+					<button class="glyphicon glyphicon-chevron-right dugmeLevo" onclick="pritisni('levo')"></button>
+					<button class="glyphicon glyphicon-chevron-left dugmeDesno"onclick="pritisni('desno')"></button>
+												 
+					</div>
+			</div>
+					
+			<footer class="col-xs-offset-4 col-md-offset-0 col-sm-offset-0">
+		<div class="col-md-6 col-xs-6 imeFirme">
+		<p>Prezent Parket</p>
+		<p> office@prezentparket.com</p>
+		<p>Gornji Milanovac, Srbija</p>
+		</div>
+		<div class="col-md-6 col-xs-6 copyright">
+		Copyright by M.Djurovic
+		</div>
+	        </footer>
+				
+			
+</div>
+
+	
+		
+		
+		<!--Drugi -->
+	<div class="container-fluid fullHeight" id="prvaStrana">
+		
+	<h1 class="naslov">O nama</h1>
+	    <div class="row">
+				<div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-2 col-xs-12 col-xs-offset-2 sredinaText">
+				<p>Firma Prezent Parket je osnovana 1993 godine u Gornjem Milanovcu. U prvih deset godina poslovanja primarna delatnost je bila proizvodnja parketa.
+			Danas, Prezent Parket se najviše bavi proizvodnjom drvenih paleta, frize za parket i sličnih drvenih elemenata. Pored proizvodnih kapaciteta za obradu drveta, naša kompanija poseduje i neophodna sredstva za sušenje i toplotno tretiranje proizvoda, kao i odgovarajuće standarde i sertifikate (uključujući FSC).
+			 
+			Bitno je napomenuti da se firma oslanja i na sopstvene šumarske transportne kapacitete koji omogućavaju konstantno i pouzdano snabdevanje trupcima tokom cele godine. </p>
+				</div>
+				<div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-2 col-xs-12 col-xs-offset-3 sredinaSlika">	
+				<a href="http://info.fsc.org/details.php?id=a023300000Xp1dhAAB&type=certificate&return=certificate.php"><img class="img-responsive" src="Slike/oznaka.jpeg"/></a>
+				</div>
+		</div>		
+		
+		<footer class="col-xs-offset-4 col-md-offset-0 col-sm-offset-0">
+					<div class="col-md-6 col-xs-6 imeFirme">
+					<p>Prezent Parket</p>
+					<p> office@prezentparket.com</p>
+					<p>Gornji Milanovac, Srbija</p>
+					</div>
+					<div class="col-md-6 col-xs-6 copyright">
+					Copyright by M.Djurovic
+					</div>
+		</footer>
+	
+</div>
+		
+			<!--Treci-->
+	<div class="container-fluid fullHeight" id="drugaStrana">
+	
+        	
+			<h1 class="naslov">Proizvodi i usluge</h1>
+			<div class="proizvodiText col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-3">
+			<ul>
+			<li>Drvene palete raznih dimenzija</li>
+			<li>Sertifikovano toplotno tretiranje paleta i elemenata</li>
+			<li>Proizvodnja na veliko frize za parket i slicnih drvenih elemenata</li>
+			</ul>
+			</div>
+			<div class="proizvodiSlika col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-3">
+			<img class="img-rounded img-responsive" src="Slike/proizvodiiusluge1.jpg"/>
+			</div>	
+			
+		
+				<footer class="col-xs-offset-4 col-md-offset-0 col-sm-offset-0">
+					<div class="col-md-6 col-xs-6 imeFirme">
+					<p>Prezent Parket</p>
+					<p> office@prezentparket.com</p>
+					<p>Gornji Milanovac, Srbija</p>
+					</div>
+					<div class="col-md-6 col-xs-6 copyright">
+					Copyright by M.Djurovic
+					</div>
+				</footer>
+	</div>
+	
+			<!--Cetvrta-->
+<div class="container-fluid fullHeight" id="trecaStrana">
+			
+			
+					<h1 class="naslov">Kontaktirajte nas</h1>
+								<div class="KontaktForma col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-2 col-xs-12 col-xs-offset-2">   
+							<input id="imeId" type="text" class="kontaktText" placeholder="Ime i Prezime" required></input><br>
+							<input id="emailId" type="text" class="kontaktText" placeholder="E-mail adresa" required></input><br>
+							<input id="telefonId" type="text" class="kontaktText" placeholder="Broj telefona" required></input><br>
+							<input id="porukaId" type="textarea" class="kontaktTextarea" placeholder="Poruka" required></input><br>
+							<button onclick="testiraj()" class="kontaktDugme">Pošalji</button>
+							  </div>
+							  <div class="mapaKontakt col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-2 col-xs-12 col-xs-offset-2">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2868.7215878773577!2d20.46375811478272!3d44.02714753618826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%C5%BDelezni%C4%8Dka+33%2C+Gornji+Milanovac!5e0!3m2!1sen!2srs!4v1461432810927" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
+			 
+				<footer class="col-xs-offset-4 col-md-offset-0 col-sm-offset-0">
+					<div class="col-md-6 col-xs-6 imeFirme">
+					<p>Prezent Parket</p>
+					<p> office@prezentparket.com</p>
+					<p>Gornji Milanovac, Srbija</p>
+					</div>
+					<div class="col-md-6 col-xs-6 copyright">
+					Copyright by M.Djurovic
+					</div>
+				</footer>
+		
+</div>
+	
+	
+	
+
+</body>
+</html>
